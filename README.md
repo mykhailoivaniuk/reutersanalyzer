@@ -225,7 +225,7 @@ To install, use the following commands in a conda environment. Make sure pip is 
 pip install reutersana7yzer
 python -m spacy download en_core_web_sm
 ```
-After you installed required dependencies, download trading_days.csv, companies.csv and 1700pages.csv from this this repo and put them in the same directory as your python file where you are going to call NewsAnalyzer.
+After you installed required dependencies, **Download trading_days.csv, companies.csv and 1700pages.csv** from this this repo and put them in the same directory as your python file where you are going to call NewsAnalyzer.
 To test if everything is correctly installed, run the following in python
 ```
 from newsanalyzer import NewsAnalyzer
