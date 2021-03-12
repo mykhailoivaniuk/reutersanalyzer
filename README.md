@@ -74,7 +74,7 @@ Almost all websites are written in what’s called HTML, which is standard acros
 This is called web scraping. Computers go online and navigate the web (just like you or I would), all while performing certain tasks. Let’s look at exactly how we implement this. 
 
 ### What tools we're going to use
-[Talk about Selenium and Beautifulsoup]
+We used Selenium to automate scrolling through the Reuters and BeautifulSoup to scrape the website's content and get article's publish date, title and the article text.
 
 ### Data formatting
 From each article, we want to extract the information that will be most useful for us. Here, we want the title, the date, and the text. Notice this is pretty much exactly the same information we (humans) get when we are reading an article.
